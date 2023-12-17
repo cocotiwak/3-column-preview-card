@@ -5,7 +5,20 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'transparent-white': 'hsla(0, 0%, 100%, 0.75)',
+        'very-light-grey': 'hsl(0, 0%, 95%)'
+
+      },
+      fontFamily: {
+        'lexend': ['Lexend Deca', 'sans'],
+        'big': ['Big Shoulders Display', 'sans']
+      },
+      fontSize: {
+        base : ['15px','24px']
+      },
+    },
   },
   variants: {
     extend: {},
