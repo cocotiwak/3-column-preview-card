@@ -1,0 +1,17 @@
+{
+  "name": "3-column-preview-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tailwindcss -i ./build/css/tailwind.css -o ./styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^2.2.19"
+  }
+}
