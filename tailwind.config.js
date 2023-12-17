@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       colors: {
         'transparent-white': 'hsla(0, 0%, 100%, 0.75)',
-        'very-light-grey': 'hsl(0, 0%, 95%)'
+        'very-light-grey': 'hsl(0, 0%, 95%)',
+        'bright-orange': 'hsl(31, 77%, 52%)',
+        'dark-cyan': 'hsl(184, 100%, 22%)',
+        'very-dark-cyan': 'hsl(179, 100%, 13%)'
 
       },
       fontFamily: {
@@ -16,7 +19,12 @@ module.exports = {
         'big': ['Big Shoulders Display', 'sans']
       },
       fontSize: {
-        base : ['15px','24px']
+        basis : ['15px','24px']
+      },
+      textColor: {
+        'transparent-white': 'hsla(0, 0%, 100%, 0.75)',
+        'bright-orange': 'hsl(31, 77%, 52%)',
+        'very-light-grey': 'hsl(0, 0%, 95%)'
       },
     },
   },

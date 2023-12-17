@@ -865,6 +865,10 @@ video {
   max-height: 100vh;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .min-h-\[3\.23rem\] {
   min-height: 3.23rem;
 }
@@ -881,6 +885,10 @@ video {
   min-height: 0px;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
 .w-\[3\.23rem\] {
   width: 3.23rem;
 }
@@ -895,6 +903,10 @@ video {
 
 .w-12 {
   width: 3rem;
+}
+
+.min-w-full {
+  min-width: 100%;
 }
 
 .min-w-\[3\.23rem\] {
@@ -1107,6 +1119,10 @@ video {
   flex-direction: row-reverse;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -1289,6 +1305,20 @@ video {
   --tw-border-opacity: 0.1;
 }
 
+.bg-transparent-white {
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.bg-bright-orange {
+  --tw-bg-opacity: 1;
+  background-color: hsla(31, 77%, 52%, var(--tw-bg-opacity));
+}
+
+.bg-dark-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsla(184, 100%, 22%, var(--tw-bg-opacity));
+}
+
 .bg-\[\#0f0\] {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 255, 0, var(--tw-bg-opacity));
@@ -1334,6 +1364,11 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+
+.bg-very-dark-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsla(179, 100%, 13%, var(--tw-bg-opacity));
 }
 
 .bg-opacity-\[0\.11\] {
@@ -1407,12 +1442,26 @@ video {
      object-position: bottom;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-\[var\(--app-padding\)\] {
   padding: var(--app-padding);
 }
 
 .p-4 {
   padding: 1rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-2 {
@@ -1449,8 +1498,26 @@ video {
   vertical-align: middle;
 }
 
+.font-big {
+  font-family: Big Shoulders Display, sans;
+}
+
+.font-lexend {
+  font-family: Lexend Deca, sans;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-basis {
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .text-\[2\.23rem\] {
@@ -1462,12 +1529,12 @@ video {
   line-height: 2rem;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .\!font-bold {
@@ -1515,6 +1582,15 @@ video {
   letter-spacing: -0.025em;
 }
 
+.text-transparent-white {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.text-bright-orange {
+  --tw-text-opacity: 1;
+  color: hsla(31, 77%, 52%, var(--tw-text-opacity));
+}
+
 .text-indigo-500 {
   --tw-text-opacity: 1;
   color: rgba(99, 102, 241, var(--tw-text-opacity));
@@ -1523,6 +1599,11 @@ video {
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgba(239, 68, 68, var(--tw-text-opacity));
+}
+
+.text-very-light-grey {
+  --tw-text-opacity: 1;
+  color: hsla(0, 0%, 95%, var(--tw-text-opacity));
 }
 
 .text-opacity-10 {
@@ -2084,6 +2165,10 @@ video {
 @media (min-width: 1024px) {
   .lg\:grid-cols-\[200px\2c repeat\(auto-fill\2c minmax\(15\%\2c 100px\)\)\2c 300px\] {
     grid-template-columns: 200px repeat(auto-fill, minmax(15%, 100px)) 300px;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 
   .lg\:text-center {
