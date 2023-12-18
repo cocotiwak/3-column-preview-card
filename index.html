@@ -11,29 +11,39 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 </head>
 <body>
-    <div class="flex min-w-full min-h-screen bg-transparent-white flex-col py-14 px-4 lg:flex-row">
-        <div class="flex bg-bright-orange flex-col gap-4 p-5">
+    
+    <div class="flex min-w-full min-h-screen bg-transparent-white flex-col py-14 px-4 lg:justify-center lg:items-center">
+        <div class="lg:flex lg:w-3/5 lg:h-96">
+        <div class="flex bg-bright-orange flex-col gap-4 p-5 rounded-t-lg lg:rounded-none">
             <img src="./images/icon-sedans.svg" alt="" class="w-16">
             <p class="font-big font-bold text-very-light-grey text-3xl">SEDANS</p>
             <p class="font-lexend text-basis text-transparent-white">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
                 or on your next road trip.</p>
-            <button class="font-lexend text-basis text-bright-orange bg-transparent-white">Learn More</button>
+                <div class="flex w-1/2 items-center lg:mt-10">
+                    <button class="font-lexend text-basis text-bright-orange bg-transparent-white p-2 rounded-2xl hover:text-transparent-white hover:bg-bright-orange hover:border-2">Learn More</button>
+                </div>
         </div>
         <div class="flex bg-dark-cyan flex-col gap-4 p-5">
             <img src="./images/icon-suvs.svg" alt="" class="w-16">
             <p class="font-big font-bold text-very-light-grey text-3xl">SUVs</p>
             <p class="font-lexend text-basis text-transparent-white">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
                 and off-road adventures.</p>
-            <button class="font-lexend text-basis text-bright-orange bg-transparent-white">Learn More</button>
+            <div class="flex w-1/2 items-center lg:mt-10">
+                    <button class="font-lexend text-basis text-dark-cyan bg-transparent-white p-2 rounded-2xl hover:text-transparent-white hover:bg-dark-cyan hover:border-2">Learn More</button>
+            </div>
         </div>
-        <div class="flex bg-very-dark-cyan flex-col gap-4 p-5">
+        <div class="flex bg-very-dark-cyan flex-col gap-4 p-5 rounded-b-lg lg:rounded-none">
             <img src="./images/icon-luxury.svg" alt="" class="w-16">
             <p class="font-big font-bold text-very-light-grey text-3xl">Luxury</p>
             <p class="font-lexend text-basis text-transparent-white">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
                 rental and arrive in style.</p>
-            <button class="font-lexend text-basis text-bright-orange bg-transparent-white">Learn More</button>
+            <div class="flex w-1/2 items-center lg:mt-10">
+                <button class="font-lexend text-basis text-very-dark-cyan bg-transparent-white p-2 rounded-2xl hover:text-transparent-white hover:bg-very-dark-cyan hover:border-2">Learn More</button>
+            </div>
+            
         </div>
 
+    </div>
     </div>
 </body>
 </html>
